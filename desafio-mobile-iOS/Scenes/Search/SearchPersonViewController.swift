@@ -97,7 +97,7 @@ extension SearchPersonViewController: UITableViewDataSource, UITableViewDelegate
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: MarvelTableViewCell = tableView.dequeueReusableCell(forIndexPath: indexPath)
-        cell.backgroundColor = Styles.lightYellow
+        cell.backgroundColor = .red
         cell.configure(with: personSearchViewModel.outputs.viewModelItemForMarvel(at: indexPath.row))
         return cell
     }

@@ -152,7 +152,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "095B3CB7-D253-4D79-8EE9-D0971EEC5BC5"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "desafio-mobile-iOS/Scenes/Search/SearchPersonViewController.swift"
