@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UrS-Ql-sOi" customClass="CastMemberCollectionViewCell" customModule="TohrMovies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rober downey Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UI9-Hh-Tmu">
+                        <rect key="frame" x="0.0" y="2" width="80" height="28"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                        <color key="textColor" systemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ut8-iq-A8o" userLabel="View - Container">
+                        <rect key="frame" x="0.0" y="30" width="80" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5i-JP-nsW">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="q5i-JP-nsW" secondAttribute="height" multiplier="1:1" id="BbH-HW-mCh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7xW-y5-5iw">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="q5i-JP-nsW" secondAttribute="bottom" id="2et-Lj-o1A"/>
+                            <constraint firstAttribute="trailing" secondItem="7xW-y5-5iw" secondAttribute="trailing" id="CLU-aw-sCb"/>
+                            <constraint firstAttribute="trailing" secondItem="q5i-JP-nsW" secondAttribute="trailing" id="Eka-0j-9CX"/>
+                            <constraint firstItem="7xW-y5-5iw" firstAttribute="leading" secondItem="Ut8-iq-A8o" secondAttribute="leading" id="NfH-2l-UFF"/>
+                            <constraint firstItem="7xW-y5-5iw" firstAttribute="top" secondItem="Ut8-iq-A8o" secondAttribute="top" id="XiI-w5-hwK"/>
+                            <constraint firstAttribute="width" secondItem="Ut8-iq-A8o" secondAttribute="height" multiplier="1:1" id="pAK-eG-ITw"/>
+                            <constraint firstItem="q5i-JP-nsW" firstAttribute="top" secondItem="Ut8-iq-A8o" secondAttribute="top" id="qRm-cW-Pl6"/>
+                            <constraint firstItem="q5i-JP-nsW" firstAttribute="leading" secondItem="Ut8-iq-A8o" secondAttribute="leading" id="r4m-6x-tsp"/>
+                            <constraint firstAttribute="bottom" secondItem="7xW-y5-5iw" secondAttribute="bottom" id="sDt-FG-9o5"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBs-BN-wuD">
+                        <rect key="frame" x="0.0" y="113" width="80" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" systemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ut8-iq-A8o" firstAttribute="top" secondItem="UI9-Hh-Tmu" secondAttribute="bottom" id="Erv-y7-d0z"/>
+                <constraint firstItem="pBs-BN-wuD" firstAttribute="top" secondItem="Ut8-iq-A8o" secondAttribute="bottom" constant="3" id="Gdu-h0-WBL"/>
+                <constraint firstItem="UI9-Hh-Tmu" firstAttribute="top" secondItem="UrS-Ql-sOi" secondAttribute="top" constant="2" id="ToV-7y-GvP"/>
+                <constraint firstItem="Ut8-iq-A8o" firstAttribute="centerY" secondItem="UrS-Ql-sOi" secondAttribute="centerY" id="USY-Ew-g1s"/>
+                <constraint firstItem="pBs-BN-wuD" firstAttribute="leading" secondItem="UrS-Ql-sOi" secondAttribute="leading" id="bBP-iy-IPs"/>
+                <constraint firstAttribute="trailing" secondItem="UI9-Hh-Tmu" secondAttribute="trailing" id="iTw-LO-Yw7"/>
+                <constraint firstAttribute="trailing" secondItem="Ut8-iq-A8o" secondAttribute="trailing" id="lNm-d5-DXE"/>
+                <constraint firstAttribute="trailing" secondItem="pBs-BN-wuD" secondAttribute="trailing" id="q4O-t2-TsB"/>
+                <constraint firstItem="UI9-Hh-Tmu" firstAttribute="leading" secondItem="UrS-Ql-sOi" secondAttribute="leading" id="t1U-69-Y2F"/>
+                <constraint firstItem="Ut8-iq-A8o" firstAttribute="leading" secondItem="UrS-Ql-sOi" secondAttribute="leading" id="vCQ-Rf-lMD"/>
+            </constraints>
+            <connections>
+                <outlet property="containerView" destination="Ut8-iq-A8o" id="51E-2l-fgX"/>
+                <outlet property="nameLabel" destination="pBs-BN-wuD" id="DWh-hV-NLV"/>
+                <outlet property="profileImageView" destination="7xW-y5-5iw" id="Lzh-E1-FDE"/>
+                <outlet property="profileInitialsLabel" destination="q5i-JP-nsW" id="M40-9F-NlP"/>
+                <outlet property="roleLabel" destination="UI9-Hh-Tmu" id="hdD-CZ-6b0"/>
+            </connections>
+            <point key="canvasLocation" x="-65.217391304347828" y="-13.392857142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
