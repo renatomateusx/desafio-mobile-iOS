@@ -38,7 +38,6 @@
 		416026F925F64BB000A1544C /* ReusableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416026F825F64BB000A1544C /* ReusableCollectionView.swift */; };
 		416026FE25F64BCE00A1544C /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416026FD25F64BCE00A1544C /* UIImageView.swift */; };
 		4160270325F64BE900A1544C /* UIScrollView+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160270225F64BE900A1544C /* UIScrollView+Reactive.swift */; };
-		4160270B25F6552D00A1544C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4160270A25F6552D00A1544C /* ViewController.swift */; };
 		59D79B74398886E03D6D505F /* Pods_desafio_mobile_iOS_desafio_mobile_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3947A3D27091C0D2EA543B /* Pods_desafio_mobile_iOS_desafio_mobile_iOSUITests.framework */; };
 		C7718323942696DBD931B462 /* Pods_desafio_mobile_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0746E5CC0E24B5FAC8CA5FA3 /* Pods_desafio_mobile_iOS.framework */; };
 		CABC8023C608ADA14FB32A5C /* Pods_desafio_mobile_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7264A0C5A7A1A89A1AF6EE /* Pods_desafio_mobile_iOSTests.framework */; };
@@ -101,7 +100,6 @@
 		416026F825F64BB000A1544C /* ReusableCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCollectionView.swift; sourceTree = "<group>"; };
 		416026FD25F64BCE00A1544C /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		4160270225F64BE900A1544C /* UIScrollView+Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Reactive.swift"; sourceTree = "<group>"; };
-		4160270A25F6552D00A1544C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D3815A3845EB0D398E37B12 /* Pods-desafio-mobile-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-mobile-iOS.release.xcconfig"; path = "Target Support Files/Pods-desafio-mobile-iOS/Pods-desafio-mobile-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		7FB547D3064539EDD1FE24DC /* Pods-desafio-mobile-iOS-desafio-mobile-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-mobile-iOS-desafio-mobile-iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-desafio-mobile-iOS-desafio-mobile-iOSUITests/Pods-desafio-mobile-iOS-desafio-mobile-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CAD3AF9478548C8035E5CAC6 /* Pods-desafio-mobile-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-mobile-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-desafio-mobile-iOSTests/Pods-desafio-mobile-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 				412AAADA25F5A17800E95A22 /* Models */,
 				412AAAD625F5A16500E95A22 /* Services */,
 				412AAA9225F5A03B00E95A22 /* AppDelegate.swift */,
-				4160270A25F6552D00A1544C /* ViewController.swift */,
 				412AAA9425F5A03B00E95A22 /* SceneDelegate.swift */,
 				412AAA9E25F5A03E00E95A22 /* Assets.xcassets */,
 				412AAAA025F5A03E00E95A22 /* LaunchScreen.storyboard */,
@@ -559,7 +556,6 @@
 				416026BD25F635D000A1544C /* MarvelCollectionItemViewModel.swift in Sources */,
 				4160270325F64BE900A1544C /* UIScrollView+Reactive.swift in Sources */,
 				416026EC25F64A6900A1544C /* CastMemberCollectionViewCell.swift in Sources */,
-				4160270B25F6552D00A1544C /* ViewController.swift in Sources */,
 				412AAA9325F5A03B00E95A22 /* AppDelegate.swift in Sources */,
 				412AAA9525F5A03B00E95A22 /* SceneDelegate.swift in Sources */,
 				4160268325F630B100A1544C /* Styles.swift in Sources */,
@@ -756,6 +752,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPDNCAZJQ6;
 				INFOPLIST_FILE = "desafio-mobile-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -776,6 +773,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPDNCAZJQ6;
 				INFOPLIST_FILE = "desafio-mobile-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
